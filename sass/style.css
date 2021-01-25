@@ -1597,7 +1597,7 @@ input[type="tel"] {
       -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
-  background-image: url(/img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
