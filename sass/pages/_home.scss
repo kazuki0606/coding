@@ -126,7 +126,7 @@ display: block;
 .company {
   padding: 130px 0 130px 0;
   text-align: center;
-  background-image: url(/img/bg-circle.png), url(/img/bg-face.png);
+  background-image: url(../img/bg-circle.png), url(../img/bg-face.png);
   background-position: center center,center center;
   @include mq(xl) {
     background-size: 950px;
@@ -135,7 +135,7 @@ display: block;
 
   @include mq(md) {
     padding: 60px 0 60px 0;
-    background-image: url(/img/sp_bg-circle.png);
+    background-image: url(../img/sp_bg-circle.png);
     background-size: 375px;
   }
 

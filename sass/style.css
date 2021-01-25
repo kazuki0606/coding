@@ -1934,7 +1934,7 @@ input[type="tel"] {
 .company {
   padding: 130px 0 130px 0;
   text-align: center;
-  background-image: url(/img/bg-circle.png), url(/img/bg-face.png);
+  background-image: url(../img/bg-circle.png), url(../img/bg-face.png);
   background-position: center center,center center;
 }
 
@@ -1947,7 +1947,7 @@ input[type="tel"] {
 @media screen and (max-width: 768px) {
   .company {
     padding: 60px 0 60px 0;
-    background-image: url(/img/sp_bg-circle.png);
+    background-image: url(../img/sp_bg-circle.png);
     background-size: 375px;
   }
 }
@@ -2306,7 +2306,7 @@ input[type="tel"] {
 .recruit-message__img-wrapper {
   overflow: hidden;
   height: 780px;
-  background-image: url(/img/recruit01.jpg);
+  background-image: url(../img/recruit01.jpg);
   background-repeat: no-repeat;
   background-position: center 80%;
   background-size: cover;
