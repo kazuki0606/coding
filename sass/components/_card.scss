@@ -1,0 +1,47 @@
+.card {
+  flex: 0 1 31.53153%;
+  margin-right: 30px;
+  @include mq(md) {
+  flex: 1;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  
+  }
+
+  &:nth-child(3n) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+}
+ 
+.card__img-wrapper{
+    margin-bottom: 15px;
+    img{
+      width: 100%;
+    }
+
+  }
+
+  .card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  text-align: center;
+@include font-size(18);
+}
+
+.card__link{
+  text-align: center;
+  color: $color-text;
+
+}
+
+
+
+

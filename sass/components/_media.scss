@@ -1,0 +1,39 @@
+.media {
+  display: flex;
+
+  @include mq(md) {
+    display: block;
+  }
+}
+.media__img-wrapper {
+    flex: 0 0 40.09009%;
+    margin-right: 50px;
+
+    @include mq(md) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .media__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .media__body {
+    flex: 1;
+  }
+  
+  .media__title {
+    margin-bottom: 20px;
+
+    @include font-size(24);
+    @include mq(md) {
+      line-height: 1.2;
+      margin-bottom: 15px;
+      text-align: center;
+
+      @include font-size(18);
+    }
+  }
+

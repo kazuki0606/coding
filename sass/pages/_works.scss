@@ -1,0 +1,27 @@
+.works-detail{
+  padding: 70px 0;
+  @include mq(md){
+    padding: 40px 0;
+
+  }
+}
+
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  @include mq(lg){
+    flex-wrap:nowrap;
+      }
+  @include mq(md){
+flex-direction: column;
+  }
+
+  .card{
+    margin-bottom: 30px;
+    flex: 0 1 30.53153%;
+  }
+  .card__img {
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+
+  }
+}

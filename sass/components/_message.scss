@@ -1,0 +1,24 @@
+.message {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.message__heading {
+    font-weight: bold;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 40px;
+
+    @include font-size(40);
+    @include mq(md) {
+      line-height: 1.5;
+
+      @include font-size(32);
+    }
+  }
+
+  .message__underline {
+    background: linear-gradient(transparent 70%, #f5f534 0%);
+  }
+

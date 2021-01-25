@@ -1,0 +1,13 @@
+.label-category{
+
+  font-weight: bold;
+  display: block;
+  width: 80px;
+  padding: 2px 10px;
+  text-align: center;
+  color: #333;
+  border-radius: 20px;
+  background-color: #e8e8e8;
+  @include font-size(12);
+  
+  }
